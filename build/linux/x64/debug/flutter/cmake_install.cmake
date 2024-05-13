@@ -1,8 +1,8 @@
-# Install script for directory: /home/super/cronometro/linux/flutter
+# Install script for directory: /home/super/AppFlutterFInal/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/super/cronometro/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

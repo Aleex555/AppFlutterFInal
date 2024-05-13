@@ -1,8 +1,8 @@
-# Install script for directory: /home/super/cronometro/linux
+# Install script for directory: /home/super/AppFlutterFInal/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/super/cronometro/build/linux/x64/debug/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,95 +39,95 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/super/cronometro/build/linux/x64/debug/bundle/")
+  file(REMOVE_RECURSE "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/super/cronometro/build/linux/x64/debug/bundle/cronometro" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/super/cronometro/build/linux/x64/debug/bundle/cronometro")
+  if(EXISTS "$ENV{DESTDIR}/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/cronometro" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/cronometro")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/super/cronometro/build/linux/x64/debug/bundle/cronometro"
+         FILE "$ENV{DESTDIR}/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/cronometro"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/super/cronometro/build/linux/x64/debug/bundle/cronometro")
+   "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/cronometro")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/super/cronometro/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/super/cronometro/build/linux/x64/debug/intermediates_do_not_run/cronometro")
-  if(EXISTS "$ENV{DESTDIR}/home/super/cronometro/build/linux/x64/debug/bundle/cronometro" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/super/cronometro/build/linux/x64/debug/bundle/cronometro")
+file(INSTALL DESTINATION "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle" TYPE EXECUTABLE FILES "/home/super/AppFlutterFInal/build/linux/x64/debug/intermediates_do_not_run/cronometro")
+  if(EXISTS "$ENV{DESTDIR}/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/cronometro" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/cronometro")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/super/cronometro/build/linux/x64/debug/bundle/cronometro"
-         OLD_RPATH "/home/super/cronometro/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/cronometro"
+         OLD_RPATH "/home/super/AppFlutterFInal/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/snap/flutter/current/usr/bin/strip" "$ENV{DESTDIR}/home/super/cronometro/build/linux/x64/debug/bundle/cronometro")
+      execute_process(COMMAND "/snap/flutter/current/usr/bin/strip" "$ENV{DESTDIR}/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/cronometro")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/super/cronometro/build/linux/x64/debug/bundle/data/icudtl.dat")
+   "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/super/cronometro/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/super/cronometro/linux/flutter/ephemeral/icudtl.dat")
+file(INSTALL DESTINATION "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/data" TYPE FILE FILES "/home/super/AppFlutterFInal/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/super/cronometro/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
+   "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/super/cronometro/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/super/cronometro/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+file(INSTALL DESTINATION "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/lib" TYPE FILE FILES "/home/super/AppFlutterFInal/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/super/cronometro/build/linux/x64/debug/bundle/lib/")
+   "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/lib/")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/super/cronometro/build/linux/x64/debug/bundle/lib" TYPE DIRECTORY FILES "/home/super/cronometro/build/native_assets/linux/")
+file(INSTALL DESTINATION "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/lib" TYPE DIRECTORY FILES "/home/super/AppFlutterFInal/build/native_assets/linux/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/super/cronometro/build/linux/x64/debug/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/data/flutter_assets")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/super/cronometro/build/linux/x64/debug/bundle/data/flutter_assets")
+   "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/super/cronometro/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/super/cronometro/build//flutter_assets")
+file(INSTALL DESTINATION "/home/super/AppFlutterFInal/build/linux/x64/debug/bundle/data" TYPE DIRECTORY FILES "/home/super/AppFlutterFInal/build//flutter_assets")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/super/cronometro/build/linux/x64/debug/flutter/cmake_install.cmake")
+  include("/home/super/AppFlutterFInal/build/linux/x64/debug/flutter/cmake_install.cmake")
 
 endif()
 
@@ -139,5 +139,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/super/cronometro/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/super/AppFlutterFInal/build/linux/x64/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
